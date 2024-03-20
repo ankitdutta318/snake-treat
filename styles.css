@@ -1,0 +1,31 @@
+.board {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.cell {
+    height: 20px;
+    width: 20px;
+    background-color: antiquewhite;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+#treat {
+    height: 10px;
+    width: 10px;
+    color: red;
+    border-radius: 100%;
+}
+
+.snake {
+    background-color: brown;
+}
